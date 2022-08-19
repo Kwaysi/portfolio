@@ -1,6 +1,11 @@
 import { init } from "aos";
 import { useEffect } from "react";
-import { Linkedin, GitHub, File } from "react-feather";
+// @ts-ignore
+import File from "react-feather/dist/icons/file";
+// @ts-ignore
+import GitHub from "react-feather/dist/icons/github";
+// @ts-ignore
+import Linkedin from "react-feather/dist/icons/linkedin";
 
 import "./App.css";
 import "aos/dist/aos.css";
@@ -73,7 +78,9 @@ function App() {
 						</div>
 						<div className="flex-grow overflow-hidden">
 							<h3>Resume</h3>
-							<p className="truncate text-ellipsis overflow-hidden">https://docs.google.com/document/d/1rOlBJeUNBlFzyq3i13RTA5jwVfp4iSM5jm3yD9Hx_Xk/edit?usp=sharing</p>
+							<p className="truncate text-ellipsis overflow-hidden">
+								https://docs.google.com/document/d/1rOlBJeUNBlFzyq3i13RTA5jwVfp4iSM5jm3yD9Hx_Xk/edit?usp=sharing
+							</p>
 						</div>
 					</div>
 				</a>
