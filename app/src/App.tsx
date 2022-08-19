@@ -66,14 +66,14 @@ function App() {
 						</div>
 					</div>
 				</a>
-				<a href="http://">
-					<div className="flex space-x-3 p-2 items-center border border-current rounded-md">
+				<a href="https://docs.google.com/document/d/1rOlBJeUNBlFzyq3i13RTA5jwVfp4iSM5jm3yD9Hx_Xk/edit?usp=sharing">
+					<div className="flex space-x-3 p-2 items-center border border-current rounded-md overflow-hidden">
 						<div>
 							<File />
 						</div>
-						<div>
+						<div className="flex-grow overflow-hidden">
 							<h3>Resume</h3>
-							<p>https://linkedin.com/in/david-kilson</p>
+							<p className="truncate text-ellipsis overflow-hidden">https://docs.google.com/document/d/1rOlBJeUNBlFzyq3i13RTA5jwVfp4iSM5jm3yD9Hx_Xk/edit?usp=sharing</p>
 						</div>
 					</div>
 				</a>
