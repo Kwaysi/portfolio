@@ -27,7 +27,7 @@ export default function Hero() {
 					</div>
 				</div>
 				<div data-aos="fade-left" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
-					<img src="/hero.png" className="w-full h-full object-contain object-center" />
+					<img src="/hero.webp" className="w-full h-full object-contain object-center" />
 				</div>
 			</div>
 		</div>
